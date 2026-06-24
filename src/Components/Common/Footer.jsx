@@ -129,10 +129,7 @@ export default function Footer() {
 
            
             <div className="mt-10">
-              <h4 className="text-[18px] font-semibold mb-4">
-                Subscribe to Newsletter
-              </h4>
-
+ 
               <div className="flex overflow-hidden rounded-md">
                 <input
                   type="email"
@@ -140,9 +137,6 @@ export default function Footer() {
                   className="flex-1 px-4 py-3 text-[14px] bg-transparent border border-white/20 outline-none placeholder:text-white/70"
                 />
 
-                <button className="bg-[#bf883e] hover:bg-[#a87330] px-6 text-[14px] font-semibold transition">
-                  Subscribe
-                </button>
               </div>
             </div>
           </div>
