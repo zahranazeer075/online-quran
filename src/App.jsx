@@ -27,10 +27,6 @@ const MainLayout = () => {
       { index: true, element: <Home /> },
       { path: "services", element: <Services /> },
       { path: "tobeteacher", element: <ToBeTeacher /> },
-
-
-
-
      ]
    },
  ]);
