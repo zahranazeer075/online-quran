@@ -70,7 +70,7 @@ export default function Slider() {
 
                   <div className="w-14 sm:w-18 md:w-24 h-[4px] bg-[#c9972c] rounded-full" />
 
-                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white drop-shadow-lg leading-tight">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white drop-shadow-lg leading-tight">
                     {slide.title}
                   </h2>
 

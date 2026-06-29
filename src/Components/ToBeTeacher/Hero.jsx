@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 text-center px-4">
-        <h1 className="text-3xl md:text-5xl mt-10 font-bold text-[#AF864C]">
+        <h1 className="text-3xl md:text-5xl mt-10 font-bold text-[#fbb95c]">
           Become a Teacher
         </h1>
       </div>

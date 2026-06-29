@@ -31,10 +31,6 @@ const MainLayout = () => {
       { path: "tobeteacher", element: <ToBeTeacher /> },
         { path: "contact", element: <Contact /> },
 
-
-
-
-        
      ]
    },
  ]);
