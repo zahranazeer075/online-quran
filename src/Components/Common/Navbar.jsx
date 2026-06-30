@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
@@ -14,8 +12,6 @@ const Navbar = () => {
     { name: "To Be Teacher", path: "/tobeteacher" },
     { name: "Contact", path: "/contact" },
   ];
-
-  // Function to handle auto-scroll to top and close mobile menu
   const handleLinkClick = () => {
     setIsOpen(false);
     window.scrollTo({
@@ -26,8 +22,6 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#c5a06a] min-h-[85px] flex items-center fixed z-50 w-full justify-between px-4 md:px-6 lg:px-8 shadow-sm">
-      
-      {/* Logo & Brand Section */}
       <div className="flex items-center gap-2 md:gap-3 shrink-0">
         <div className="bg-white rounded-md p-1">
           <img
@@ -47,7 +41,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Desktop Navigation Links */}
+    
       <ul className="hidden lg:flex items-center gap-3 xl:gap-5">
         {navLinks.map((link) => (
           <li key={link.name}>
@@ -68,20 +62,16 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* Desktop Sign In Button */}
+     
       <button className="hidden lg:block bg-white text-green-700 font-serif font-semibold px-6 py-3 rounded-xl whitespace-nowrap hover:bg-gray-100 transition duration-300">
         Sign In
       </button>
-
-      {/* Mobile Hamburger Icon */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="lg:hidden text-white"
       >
         {isOpen ? <X size={30} /> : <Menu size={30} />}
       </button>
-
-      {/* Mobile Dropdown Menu */}
       <div
         className={`absolute top-[85px] left-0 w-full bg-[#c5a06a] shadow-lg transition-all duration-300 lg:hidden ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"

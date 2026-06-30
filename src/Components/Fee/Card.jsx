@@ -31,8 +31,6 @@ const Card = () => {
   return (
     <section className="min-h-screen bg-[#f8fafc] flex items-center justify-center px-4 sm:px-6 lg:px-8 py-10">
       <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-20">
-        
-        {/* Image Section */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <img
             src="https://images.pexels.com/photos/7621144/pexels-photo-7621144.jpeg"
@@ -47,8 +45,6 @@ const Card = () => {
             "
           />
         </div>
-
-        {/* FAQ Section */}
         <div
           className="
             w-full

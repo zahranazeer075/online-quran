@@ -1,11 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 import { Pagination, Autoplay, EffectFade } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-
 const slides = [
   {
     id: 1,
@@ -29,7 +27,6 @@ const slides = [
     img: "https://plus.unsplash.com/premium_photo-1723532414101-404f12334ff6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQwfHx8ZW58MHx8fHx8",
   },
 ];
-
 export default function Slider() {
   return (
     <div className="w-full h-[100vh] min-h-[650px] sm:min-h-[700px] overflow-hidden">

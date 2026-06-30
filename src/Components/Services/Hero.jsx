@@ -4,25 +4,24 @@ const Hero = () => {
   return (
     <div className="h-[100vh] w-full bg-black justify-center items-center flex flex-col relative px-4 text-center">
 
-      {/* Badge */}
+     
       <button className="text-amber-400 border border-amber-400 py-1.5 px-3 rounded-full mt-20 sm:mt-24 md:mt-26 text-xs sm:text-sm">
         Premium Quran Education
       </button>
 
-      {/* Heading */}
+    
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-bold mt-5 sm:mt-7 leading-tight">
         Discover The Beauty Of{" "}
         <span className="text-amber-400">Quran Learning</span>
       </h1>
 
-      {/* Paragraph */}
+      
       <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 font-normal w-full max-w-[95%] sm:max-w-xl md:max-w-2xl lg:max-w-3xl text-center mt-4 leading-relaxed">
         Transform your spiritual journey with certified teachers, flexible
         schedules, and personalized Quran learning programs tailored for every
         age and level.
       </p>
 
-      {/* Buttons */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8 sm:mt-10 w-full px-4 sm:px-0">
         <button
           className="text-white font-medium bg-[#B8941F] transition-all duration-300 transform hover:scale-105 shadow-lg text-base sm:text-lg py-3 px-6 sm:px-8 rounded-xl w-full sm:w-auto"
@@ -37,7 +36,7 @@ const Hero = () => {
         </button>
       </div>
 
-      {/* Wave */}
+      
       <div
         className="w-full overflow-hidden absolute bottom-0 left-0"
         style={{ height: "120px" }}
